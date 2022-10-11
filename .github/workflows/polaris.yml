@@ -28,7 +28,7 @@ jobs:
           java-version: 8 
       - name: polaris 
         run: |
-          bash <(curl -s -L https://detect.synopsys.com/detect8.sh) --blackduck.url=$SYN_URL --blackduck.api.token=$SYN_TOKEN
+          bash <(curl -s -L https://detect.synopsys.com/detect8.sh) --blackduck.url=$SYN_URL --blackduck.api.token=$SYN_TOKEN --detect.policy.check.fail.on.names="struts"
         env: 
           SYN_TOKEN: ${{ secrets.SYN_TOKEN }} 
           SYN_URL: ${{ secrets.SYN_URL }}           
