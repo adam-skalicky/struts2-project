@@ -28,6 +28,7 @@ jobs:
           java-version: 8 
       - name: polaris 
         run: | 
+          cd src
           bash <(curl -s -L https://detect.synopsys.com/detect8.sh) --blackduck.url=$SYN_URL --blackduck.api.token=$SYN_TOKEN
         env: 
           SYN_TOKEN: ${{ secrets.SYN_TOKEN }} 
