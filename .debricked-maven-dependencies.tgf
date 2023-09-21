@@ -1,0 +1,52 @@
+2044272973 org.cgiar.ciat:ejemplo1:war:0.0.1-SNAPSHOT
+1463823265 junit:junit:jar:3.8.1:test
+1548962651 org.apache.struts:struts2-core:jar:2.5.10.1:compile
+60187547 org.freemarker:freemarker:jar:2.3.23:compile
+723689932 ognl:ognl:jar:3.1.12:compile
+1649884294 org.javassist:javassist:jar:3.20.0-GA:compile
+605600260 commons-fileupload:commons-fileupload:jar:1.3.2:compile
+337813415 commons-io:commons-io:jar:2.4:compile
+716206126 org.apache.commons:commons-lang3:jar:3.4:compile
+1901648626 org.apache.struts:struts2-json-plugin:jar:2.5.10.1:compile
+284268103 org.apache.logging.log4j:log4j-core:jar:2.8.2:compile
+271514713 org.apache.logging.log4j:log4j-api:jar:2.8.2:compile
+959897458 com.jgeppert.struts2.jquery:struts2-jquery-plugin:jar:4.0.2:compile
+244190700 org.apache.velocity:velocity:jar:1.5:compile
+315748820 commons-collections:commons-collections:jar:3.1:compile
+1979325411 commons-lang:commons-lang:jar:2.1:compile
+2050529121 oro:oro:jar:2.0.8:compile
+69670055 com.jgeppert.struts2.jquery:struts2-jquery-grid-plugin:jar:4.0.2:compile
+426052262 log4j:log4j:jar:1.2.17:compile
+1021656938 com.jgeppert.struts2.jquery:struts2-jquery-datatables-plugin:jar:4.0.2:compile
+47719432 com.jgeppert.struts2.jquery:struts2-jquery-richtext-plugin:jar:4.0.2:compile
+1055300312 com.jgeppert.struts2.jquery:struts2-jquery-tree-plugin:jar:4.0.2:compile
+258447256 commons-beanutils:commons-beanutils:jar:1.7.0:compile
+443348849 commons-logging:commons-logging:jar:1.0.3:compile
+1507293264 com.jgeppert.struts2.jquery:struts2-jquery-mobile-plugin:jar:4.0.2:compile
+1408043496 com.google.code.gson:gson:jar:2.5:compile
+#
+2044272973 1463823265 test
+1548962651 60187547 compile
+723689932 1649884294 compile
+1548962651 723689932 compile
+1548962651 605600260 compile
+1548962651 337813415 compile
+1548962651 716206126 compile
+2044272973 1548962651 compile
+2044272973 1901648626 compile
+2044272973 284268103 compile
+2044272973 271514713 compile
+244190700 315748820 compile
+244190700 1979325411 compile
+244190700 2050529121 compile
+959897458 244190700 compile
+2044272973 959897458 compile
+69670055 426052262 compile
+2044272973 69670055 compile
+2044272973 1021656938 compile
+2044272973 47719432 compile
+258447256 443348849 compile
+1055300312 258447256 compile
+2044272973 1055300312 compile
+2044272973 1507293264 compile
+2044272973 1408043496 compile
