@@ -47,10 +47,10 @@ jobs:
       - name: Perform SAST Scan
         run: java -jar $FOD_UPLOAD_JAR -z package.zip -aurl $FOD_API_URL -purl $FOD_URL -rid "$FOD_RELEASE_ID" -tc "$FOD_TENANT" -uc "$FOD_USER" "$FOD_PAT" $FOD_UPLOADER_OPTS -n "$FOD_UPLOADER_NOTES"
         env:
-          FOD_TENANT: trial}
+          FOD_TENANT: WAL_Systems_Corp_628630208_FMA_737062715
           FOD_USER: adam@wal-sys.com
           FOD_PAT: ${{ secrets.FOD_TOKEN }}
-          FOD_RELEASE_ID: WAL_Systems_Corp_628630208_FMA_737062715
+          FOD_RELEASE_ID: 218229
           FOD_URL: "https://trial.fortify.com/"
           FOD_API_URL: "https://api.trial.fortify.com/"
           FOD_UPLOADER_OPTS: "-ep 2 -pp 0"
